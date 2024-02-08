@@ -501,6 +501,14 @@
     {
       "id": 1,
       "categoria": "informacion",
+      "titulo": "Independización en SUNARP",
+      "texto": "",
+      "estado": true,
+      "imagen": "/images/icons/icon_CasaSunarp.png"
+    },
+    {
+      "id": 1,
+      "categoria": "informacion",
       "titulo": "Agua",
       "texto": "",
       "estado": true,
@@ -525,61 +533,93 @@
     {
       "id": 4,
       "categoria": "informacion",
-      "titulo": "Club",
+      "titulo": "Veredas",
       "texto": "Plano",
       "estado": true,
-      "imagen": "/images/icons/clubs.png"
+      "imagen": "/images/icons/icon_Veredas.png"
     },
     {
       "id": 5,
       "categoria": "informacion",
-      "titulo": "Cerco Perimétrico",
+      "titulo": "Pistas",
       "texto": "TimeLine",
       "estado": true,
-      "imagen": "/images/icons/cerco.png"
+      "imagen": "/images/icons/icon_Pistas.png"
     },
     {
       "id": 6,
       "categoria": "informacion",
-      "titulo": "Agua",
+      "titulo": "Cerco perimétrico",
       "texto": "Empresa",
       "estado": true,
-      "imagen": "/images/icons/agua.png"
+      "imagen": "/images/icons/icon_Cerco.png"
     },
     {
       "id": 7,
       "categoria": "informacion",
-      "titulo": "Luz",
+      "titulo": "Pórtico de ingreso",
       "texto": "Empresa",
       "estado": true,
-      "imagen": "/images/icons/sol.png"
+      "imagen": "/images/icons/icon_Portico.png"
     },
     {
       "id": 8,
       "categoria": "informacion",
-      "titulo": "Desague",
+      "titulo": "Caseta de vigilancia",
       "texto": "Empresa",
       "estado": true,
-      "imagen": "/images/icons/desague.png"
+      "imagen": "/images/icons/icon_CasetaVigilancia.png"
     },
     {
       "id": 9,
       "categoria": "informacion",
-      "titulo": "Club",
+      "titulo": "Estacionamiento",
       "texto": "Empresa",
       "estado": true,
-      "imagen": "/images/icons/clubs.png"
+      "imagen": "/images/icons/icon_Estacionamiento.png"
     },
     {
       "id": 10,
       "categoria": "informacion",
-      "titulo": "Cerco Perimétrico",
+      "titulo": "Parque",
       "texto": "Empresa",
       "estado": true,
-      "imagen": "/images/icons/cerco.png"
+      "imagen": "/images/icons/icon_Parque.png"
     },
     {
       "id": 11,
+      "categoria": "informacion",
+      "titulo": "Campo de grass sintético",
+      "texto": "Empresa",
+      "estado": true,
+      "imagen": "/images/icons/icon_CampoFutbol.png"
+    },
+    {
+      "id": 12,
+      "categoria": "informacion",
+      "titulo": "Picsina",
+      "texto": "Empresa",
+      "estado": true,
+      "imagen": "/images/icons/icon_Piscina.png"
+    },
+    {
+      "id": 13,
+      "categoria": "informacion",
+      "titulo": "Juegos recreativos para niños",
+      "texto": "Empresa",
+      "estado": true,
+      "imagen": "/images/icons/icon_PatioRecreo.png"
+    },
+    {
+      "id": 14,
+      "categoria": "informacion",
+      "titulo": "Gimnasio al aire libre",
+      "texto": "Empresa",
+      "estado": true,
+      "imagen": "/images/icons/Icon_Gym.png"
+    },
+    {
+      "id": 15,
       "categoria": "ubicacion",
       "titulo": "Villa Sipán",
       "texto": "El siguiente video brinda una visión anticipada de lo que está por construirse.",
@@ -587,7 +627,7 @@
       "imagen": "https://www.youtube.com/embed/q6IzqXFS-68?si=qsQoxSYXmuglYY9o"
     },
     {
-      "id": 12,
+      "id": 16,
       "categoria": "ubicacion",
       "titulo": "Vista Aérea",
       "texto": "El siguiente video muestra un pequeño recorrido por Villa Sipán.",
@@ -4048,12 +4088,12 @@
     {
       "id": 2,
       "href": "/informacion",
-      "texto": "Informacion"
+      "texto": "Información"
     },
     {
       "id": 3,
       "href": "/ubicacion",
-      "texto": "Ubicacion"
+      "texto": "Ubicación"
     },
     {
       "id": 4,
@@ -4068,7 +4108,12 @@
     {
       "id": 6,
       "href": "/empresa",
-      "texto": "Empresa"
+      "texto": "La Empresa"
+    },
+    {
+      "id": 7,
+      "href": "/images/icons/logo_Procasa.png",
+      "texto": "Logo"
     }
   ],
   "pgserviciosvs": [
@@ -4090,7 +4135,7 @@
     },
     {
       "id": 3,
-      "titulo": "Desague",
+      "titulo": "Desagüe",
       "texto": "ubicacion",
       "categoria": "informacion",
       "estado": true,
@@ -4180,8 +4225,8 @@
   "pgbannervs": [
     {
       "id": "IA01",
-      "titulo": "Villa Sipan",
-      "subtitulo": "Te damos la bienvenida al gran Country Club",
+      "titulo": "Villa Sipán Club Privado",
+      "subtitulo": "",
       "categoria": "informacion",
       "imagen": "/images/icons/bannerprincipalvs.png",
       "href": "https://drive.google.com/file/d/1PQu-sPMaYC6RHjsY3UY_6LKEQMUY_E0n/preview"
@@ -4222,7 +4267,7 @@
   "pginformacionvs": [
     {
       "id": 1,
-      "content": "<p class=\"ql-align-justify\"><span style=\"background-color: transparent;\">Club Privado Villa Sipán, un proyecto residencial exclusivo y privado, garantizando total seguridad gracias a su cerco perimétrico de concreto. Con todas las obras finalizadas, este proyecto permite comenzar la construcción de su hogar de forma inmediata, brindándole la oportunidad de materializar su visión sin demora. Ubicado estrátegicamente, Villa Sipán se sitúa en una zona exclusiva, a espaldas de la Universidad Señor de Sipán y al lado de la urbanización La Ensenada. Ofrecemos lotes disponibles desde </span>90m²&nbsp;y opciones más amplias de 120m². Además, reafirmamos nuestro compromiso con la seguridad jurídica al entregar cada lote con Título de Propiedad registrado en Registros Públicos (SUNARP) de manera INMEDIATA y a sola firma<span style=\"background-color: transparent; color: var(--bs-card-color);\">. </span></p><ul><li>Ofrecemos los siguientes servicios básicos:</li></ul>",
+      "content": "<p class=\"ql-align-justify\"><div style=\"text-align: justify;\"><span style=\"background-color: transparent;\">Club Privado Villa Sipán, un proyecto residencial exclusivo y privado, garantizando total seguridad gracias a su cerco perimétrico de concreto. Con todas las obras finalizadas, este proyecto permite comenzar la construcción de su hogar de forma inmediata, brindándole la oportunidad de materializar su visión sin demora. <br>Ubicado estrátegicamente, Villa Sipán se sitúa en una zona exclusiva, a espaldas de la Universidad Señor de Sipán y al lado de la urbanización La Ensenada. <br> Ofrecemos lotes disponibles desde </span>90m²&nbsp;y opciones más amplias de 120m². Además, reafirmamos nuestro compromiso con la seguridad jurídica al entregar cada lote con Título de Propiedad registrado en Registros Públicos (SUNARP) de manera INMEDIATA y a sola firma<span style=\"background-color: transparent; color: var(--bs-card-color);\">. </span></p><ul><li>Ofrecemos los siguientes servicios básicos:</li></ul>",
       "recurso1": "/images/icons/imagen1vs.jpg,/images/icons/imagen2vs.png,/images/icons/imagen3vs.png",
       "recurso2": "https://drive.google.com/file/d/1b64Shp9da4q5K4sorIMvIRwfxLFzGbAB/preview",
       "categoria": "informacion",
@@ -4230,9 +4275,9 @@
     },
     {
       "id": 2,
-      "title": "Luz",
+      "title": "Luzce",
       "categoria": "timeline",
-      "content": "Club Privado Villa Sipán, un proyecto residencial exclusivo y privado, garantizando total seguridad gracias a su cerco perimétrico de concreto. Con todas las obras finalizadas, este proyecto permite comenzar la construcción de su hogar de forma inmediata, brindándole la oportunidad de materializar su visión sin demora. Ubicado estrátegicamente, Villa Sipán se sitúa en una zona exclusiva, a espaldas de la Universidad Señor de Sipán y al lado de la urbanización La Ensenada.",
+      "content": "<p class=\"ql-align-justify\"><div style=\"text-align: justify;\">Club Privado Villa Sipán, un proyecto residencial exclusivo y privado, garantizando total seguridad gracias a su cerco perimétrico de concreto. Con todas las obras finalizadas, este proyecto permite comenzar la construcción de su hogar de forma inmediata, brindándole la oportunidad de materializar su visión sin demora.Ubicado estrátegicamente, Villa Sipán se sitúa en una zona exclusiva, a espaldas de la Universidad Señor de Sipán y al lado de la urbanización La Ensenada.",
       "recurso1": "",
       "recurso2": ""
     },
@@ -4240,7 +4285,7 @@
       "id": 3,
       "title": "Luz",
       "categoria": "empresa",
-      "content": "¡Hola! Somos Villa Sipán, una inmobiliaria dedicada a la creación de entornos residenciales exclusivos en las zonas más exclusivas de Chiclayo, Lambayeque. Desde nuestra fundación en 2017, nos destacamos por ofrecer un nuevo estándar de vida a través de proyectos inmobiliarios innovadores. Nos enfocamos en diseñar espacios que integren la naturaleza, la seguridad y la tranquilidad, añadiendo valor a nuestros proyectos con áreas verdes, parques infantiles, piscinas y más.",
+      "content": "<div style=\"text-align: justify;\">¡Hola! Somos Procasa Norte, una inmobiliaria dedicada a la creación de entornos residenciales exclusivos en las zonas más exclusivas de Chiclayo, Lambayeque. Desde nuestra fundación en 2017, nos destacamos por ofrecer un nuevo estándar de vida a través de proyectos inmobiliarios innovadores. Nos enfocamos en diseñar espacios que integren la naturaleza, la seguridad y la tranquilidad, añadiendo valor a nuestros proyectos con áreas verdes, parques infantiles, piscinas y más.<br> Nuestros valores definen nuestro compromiso con el bienestar de la familia. Estamos aquí para ofrecerte lotes que se conviertan en el escenario perfecto para tus sueños y tu estilo de vida. ¡Bienvenidos a Procasa Norte!",
       "recurso1": "",
       "recurso2": ""
     },
@@ -4267,12 +4312,12 @@
   "pgempresavs": [
     {
       "title": "Misión",
-      "content": "<p>Villa Sipán, un proyecto urbanístico de primera categoría donde la exclusividad se fusiona con la seguridad y la tranquilidad. Ofrecemos todos los servicios básicos como luz, agua, desagüe, además de veredas y pistas.</p><p>Ubicado estratégicamente en la zona más prestigiosa de Chiclayo, Garza Blanca se encuentra rodeado de urbanizaciones selectas y a pasos de la reconocida Universidad Señor de Sipán. Contamos con lotes disponibles a partir de 90m², 120m² y más.</p>",
+      "content": "<div style=\"text-align: justify;\"><p>Villa Sipán, un proyecto urbanístico de primera categoría donde la exclusividad se fusiona con la seguridad y la tranquilidad. Ofrecemos todos los servicios básicos como luz, agua, desagüe, además de veredas y pistas.</p><p>Ubicado estratégicamente en la zona más prestigiosa de Chiclayo, Garza Blanca se encuentra rodeado de urbanizaciones selectas y a pasos de la reconocida Universidad Señor de Sipán. Contamos con lotes disponibles a partir de 90m², 120m² y más.</p>",
       "id": 1
     },
     {
       "title": "Visión",
-      "content": "<p>Nos proyectamos como líderes en el desarrollo inmobiliario de las zonas más exclusivas de Chiclayo, destacándonos por la excelencia en la creación de proyectos inmobiliarios modernos, con estándares de calidad superiores.</p><p>Aspiramos a ser reconocidos por nuestro compromiso con la innovación, la sostenibilidad y la satisfacción de nuestros clientes, convirtiendo a Procasa Norte Chiclayo SAC en sinónimo de hogares de prestigio y bienestar familiar.</p>",
+      "content": "<div style=\"text-align: justify;\"><p>Nos proyectamos como líderes en el desarrollo inmobiliario de las zonas más exclusivas de Chiclayo, destacándonos por la excelencia en la creación de proyectos inmobiliarios modernos, con estándares de calidad superiores.</p><p>Aspiramos a ser reconocidos por nuestro compromiso con la innovación, la sostenibilidad y la satisfacción de nuestros clientes, convirtiendo a Procasa Norte Chiclayo SAC en sinónimo de hogares de prestigio y bienestar familiar.</p>",
       "id": 2
     }
   ],

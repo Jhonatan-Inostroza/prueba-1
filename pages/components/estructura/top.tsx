@@ -14,19 +14,26 @@ export default function CTop() {
                   <a className="nav-link text-light fs-5" aria-current="page" href="#">
                      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                     </svg> <span className="p">info@compratulote.com</span>
+                     </svg> <span className="p">informes@procasanorte.com</span>
                   </a>
                </li>
             </div>
+
             <div className="right-items">
+
+
                <li className="nav-item custom-redsocial" style={{ margin: '-2px' }}>
-                  <a className="nav-link " aria-disabled="true">
-                     <span className="rounded-circle align-items-center">
-                        <FacebookShare url={shareUrl} quote={quote} />
+                  <a className="nav-link text-light " aria-disabled="true" href="//www.facebook.com/ProcasaNorte/" target="_blank">
+                     <span className="rounded-circle text-center">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                     </svg>
                      </span>
                   </a>
                </li>
 
+            {
+               /*
                <li className="nav-item custom-redsocial" style={{ margin: '-2px' }}>
                   <a className="nav-link text-light" aria-disabled="true">
                      <span className="rounded-circle text-center">
@@ -34,6 +41,8 @@ export default function CTop() {
                      </span>
                   </a>
                </li>
+               */
+            }
 
                <li className="nav-item custom-redsocial" style={{ margin: '-2px' }}>
                   <a className="nav-link text-light " aria-disabled="true" href="//www.instagram.com/procasanorteinmobiliaria/" target="_blank">
@@ -43,11 +52,28 @@ export default function CTop() {
                         </svg>
                      </span>
                   </a>
-               </li></div>
+               </li>
+
+               <li className="nav-item custom-redsocial" style={{ margin: '-2px' }}>
+                  <a className="nav-link text-light " aria-disabled="true" href="//www.youtube.com/@procasanortechiclayo6981" target="_blank">
+                     <span className="rounded-circle text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube">
+                           <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                           <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                        </svg>
+                     </span>
+                  </a>
+               </li>
+            </div>
          </ul>
 
+         
          <CNavbar />
-
+            {/* Logo en la esquina superior derecha 
+         <div className="logo-container" style={{ position: 'absolute', right: '20px', top: '20px' }}>
+            <img src="C:\Users\jhona\Documents\GIT\Proyecto 1\compratulote-garzablanca\public\images\icons\villasipanlogo.png" alt="Logo" style={{ height: '50px' }} />
+         </div>
+         */}
          <CBanner />
 
       </>
